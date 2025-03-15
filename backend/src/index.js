@@ -5,7 +5,7 @@ const app = express();
 
 // Home route
 app.get('/', (req, res) => {
-  res.send('Welcome to the server!');
+  res.send('Welcome!');
 });
 
 // Using the auth route
